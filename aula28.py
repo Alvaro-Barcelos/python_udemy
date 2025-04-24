@@ -1,7 +1,7 @@
 idade = input("Qual a sua idade? ")
 nome  = input("Qual o seu nome? ")
 
-if nome or idade:
+if nome and idade:
     print(f'Olá {nome}, você tem {idade} anos.')
     print(f'Seu nome invertido é {nome[::-1]}')
     print(f'Seu nome tem {len(nome)} letras')
